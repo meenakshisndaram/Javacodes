@@ -13,9 +13,15 @@ public class Dimensions {
     }}
 class dimension{
     public static void main(String[] args) {
-        Dimension w=new Dimension();
+        Dimension w=new Dimension(55,70);
         dimension d=new dimension();
+        System.out.println("The value of Dimension before the Modify method is " +w.height+" "+w.width);
+        d.modify(w);
+        System.out.println("The values of Dimension after the Modify method is "+w.height+" "+w.width);
 
     }
-    public  void modify(){}
+    public  void modify(Dimension w1){
+        w1.height+=100;
+
+    }
 }
