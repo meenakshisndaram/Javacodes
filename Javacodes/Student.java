@@ -21,7 +21,4 @@ public class Student {
    public static void  update(Student s2){
         s2.id=500;
         s2=new Student();
-        s2.id=50;
-
-   }
-}
+        s2.id=50;}}
