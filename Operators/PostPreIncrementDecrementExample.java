@@ -49,8 +49,17 @@ class incremenetanddecremenet{
     public static void main(String[] args) {
         char ch='a'; //value of a =97
         System.out.println(++ch);// ++ch = 97 + 1= 98  Output b
+        System.out.println('a'+'b'); //output 195
+        System.out.println("a"+"b"); //output ab
+
+    }}
+class doen{
+    public static void main(String[] args) {
+       // System.out.println(5/0);
+        System.out.println(5/0.0);
+        System.out.println(0.0/0);
+        System.out.println(-5/0.0);
+        System.out.println(-0/0.0);
 
     }
-
-
 }
